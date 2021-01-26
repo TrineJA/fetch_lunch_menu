@@ -7,7 +7,7 @@ verify_ssl = true
 streamlit = "*"
 requests = "*"
 beautifulsoup4 = "*"
-pyarrow = "*"
+pyarrow = "==0.16.0"
 
 [requires]
 python_version = "3.7"
