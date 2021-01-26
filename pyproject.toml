@@ -5,7 +5,7 @@ description = ""
 authors = ["TrineJA <trinejulie@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8.5"
 requests = "^2.25.1"
 beautifulsoup4 = "^4.9.3"
 streamlit = "^0.75.0"

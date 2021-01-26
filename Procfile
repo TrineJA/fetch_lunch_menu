@@ -1,1 +1,1 @@
-web: streamlit run --server.enableCORS false --server.port $PORT app/VTx_lunch_menu_wizard.py
+web: streamlit run --server.enableCORS false --server.port $PORT app/vtx-lunch-menu-wizard.py
