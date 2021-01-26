@@ -5,7 +5,7 @@ Get the lunch menu for Novo Nordisk canteen in VTA
 1) install heroku `brew install heroku/brew/heroku`
 2) log in using heroku cli: `heroku login`
 3) `heroku create APPNAME` to create your app (here APPNAME=taltrans-sailgp). This just needs to be done once!
-4) `heroku buildpacks:add https://github.com/moneymeets/python-poetry-buildpack.git` to add buildpack for poetry
+4) `heroku buildpacks:add https://github.com/moneymeets/python-poetry-buildpack.git` to add buildpack for poetry. I cant get this to work, so just go with pipenv for heroku...
 5) `git push heroku main` will push your changes to heroku (it does NOT push to your git repo)
 This will make your app run in 1 dyno (container).
 
