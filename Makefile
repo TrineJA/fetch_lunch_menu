@@ -1,4 +1,5 @@
 PY_ENV_EXEC ?= PYTHONPATH=src poetry run
+PIPENV ?= PYTHONPATH=src pipenv run
 
 # Cleaning
 .PHONY: poetry-clean
@@ -22,4 +23,4 @@ streamlit-local:
 	$(PY_ENV_EXEC) streamlit run app/VTx_lunch_menu_wizard.py
 
 heroku-local:
-	$(PY_ENV_EXEC) heroku local web
+	$(PIPENV) heroku local web
