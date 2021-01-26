@@ -1,4 +1,7 @@
 import streamlit as st
+import sys
+sys.path.append("src")
+
 from get_menu import get_menu_as_string
 
 st.title('Welcome to the VTx lunch menu wizard!')
