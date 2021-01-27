@@ -20,7 +20,7 @@ print_menu:
 	$(PY_ENV_EXEC) python src/get_menu.py
 
 streamlit-local:
-	$(PY_ENV_EXEC) streamlit run app/VTx_lunch_menu_wizard.py
+	$(PY_ENV_EXEC) streamlit run app/vtx-lunch-menu-wizard.py
 
 heroku-local:
 	$(PIPENV) heroku local web
